@@ -1,0 +1,49 @@
+.footer{
+    font-size:1.2rem;
+    width:100%;
+    padding : 6rem 0;
+    background-color:rgba(19, 19, 19,0.8);
+}
+.footer-container{
+    max-width: 1140px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px;
+}
+.location{
+    display: flex;
+    position: relative;
+    top:15px;
+}
+.home-icon{
+    position: relative;
+    top:23px;
+}
+
+.left1{
+    position: relative;
+    right:120px;
+}
+
+@media screen and (max-width:1440px){
+    .left1{
+        position:relative;
+        bottom:10px;
+        left:50px;
+    }
+    .home-icon{
+        position:relative;
+        top:28px;
+    }
+}
+@media screen and (max-width:1080px){
+    .right1{
+        width:100%;
+        font-size:1.0rem;
+    }
+    .left1{
+        width:100%;
+        font-size:1.5rem;
+    }
+}

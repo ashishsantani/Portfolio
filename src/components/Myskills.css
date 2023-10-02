@@ -1,0 +1,552 @@
+.container{
+    padding-top:50px;
+    padding-bottom:70px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px;
+    padding-right:80px;
+}
+.main-container .main-heading{
+    text-align: center;
+    padding:10px 0;
+    font-size:3rem;
+    margin-top:15%;
+    margin-right:30px;
+    margin-bottom:10%;
+}
+.main-heading .heading-span{
+    border:3px solid white;
+    padding:20px;
+}
+.main-heading .heading-span:hover{
+    box-shadow: 0 0 30px #0ef;
+}
+
+.main-container span{
+    color:#0ef;
+}
+.left-part h1{
+    text-align: center;
+}
+.right-part h1{
+    text-align: center;
+}
+.info{
+    color:white;
+}
+.bars{
+    border:3px solid white;
+    border-radius:10px;
+    margin:10px 0;
+    width:80%;
+    margin-bottom:40px;
+    animation:animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.bars span{
+    border:3px solid #0ef;
+    border-radius:10px;
+    margin:-3px -3px;
+    position:absolute;
+    animation:animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.bars.html span{
+    width:90%;
+}
+.bars.css span{
+    width:70%;
+}
+.bars.javascript span{
+    width:75%;
+}
+.bars.nodejs span{
+    width:85%;
+}
+.bars.mongodb span{
+    width:70%;
+}
+.bars.react span{
+    width:90%;
+}
+.bars span::after{
+    position:absolute;
+    padding:1px 8px;
+    background-color: white;
+    color:black;
+    font-size:12px;
+    border-radius: 3px;
+    top:-28px;
+    right:-20px;
+    animation : showText .5s 1.5s linear forwards;
+    opacity:0;
+}
+.bars.react span::after{
+    content:"90%";
+}
+.bars.html span::after{
+    content:"90%";
+}
+.bars.css span::after{
+    content:"65%";
+}
+.bars.javascript span::after{
+    content:"75%";
+}
+.bars.mongodb span::after{
+    content:"70%";
+}
+.bars.nodejs span::after{
+    content:"85%";
+}
+.bars span::before{
+    content:" ";
+    position: absolute;
+    width:0;
+    height:0;
+    border:7px solid transparent;
+    border-top-color:white;
+    border-bottom-width:0;
+    border-right-width:0;
+    top:-10px;
+    right:-3px;
+    animation : showText .5s 1.5s linear forwards;
+    opacity:0;
+}
+@keyframes showText{
+    100%{
+        opacity:1;
+    }
+}
+
+.div1,.div2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.div1{
+    margin:10% 0;
+    margin-top:17%;
+}
+.loader{
+    margin:0 5%;
+}
+.ring {
+    width: 120px;
+    height: 120px;
+    border-radius:0%;
+    border: 6px solid #ccc;
+}  
+.ring.Teaching-Skills{
+    margin-top:20px;
+}
+.loading-text {
+    margin-top:8%;
+    text-align: center;
+    color:white;
+    width:100%;
+}
+.Communication{
+    margin-top:20px;
+}
+.ring .span1{
+    border:3px solid #0ef;
+    border-radius:0%;
+    width:6.6%;
+    margin:-6px -6px;
+    position:absolute;
+    animation:animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.ring .span2{
+    border-left:6px solid #0ef;
+    height:13.5%;
+    border-radius:0%;
+    margin:-6px 120px;
+    position:absolute;
+    animation:animate 1s 1.5s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+.ring .span3{
+    border:3px solid #0ef;
+    border-radius:0%;
+    width:6.6%;
+    margin:120px -6px;
+    position:absolute;
+    animation:animate 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.ring .span4{
+    border-left:6px solid #0ef;
+    border-radius:0%;
+    margin:54px -6px;
+    position:absolute;
+    animation:animate 1s 2.5s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+.ring.Communication .span4{
+    height:7%;
+}
+.ring.Problem-Solving .span4{
+    height:9%;
+    margin:38px -6px;
+}
+.ring.AI-Tools .span4{
+    height:6%;
+    margin:62px -6px;
+}
+.ring.Team-Work .span4{
+    height:10.5%;
+    margin:23px -6px;
+}
+.ring.Time-Managment .span4{
+    height:6%;
+    margin:62px -6px;
+}
+.ring.Teaching-Skills  .span4{
+    height:6%;
+    margin:62px -6px;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleY(1);
+    }
+} 
+.ring .text{
+    font-size:2rem;
+    margin:25px;
+    position:absolute;
+    padding-top:10px;
+}
+.icons{
+    margin-top:10%;
+    margin-left:20%;
+}
+.myskills-heading .bar{
+    border:3px solid white;
+    border-radius:10px;
+    margin-top:-13px;
+    width:37%;
+}
+.myskills-heading h1{
+    font-size: 2.5rem;
+}
+.right-part .bar{
+    width:44%;
+}
+
+@media screen and (max-width:1440px){
+   
+    .myskills-heading h1{
+        font-size:2rem;
+    }
+    .div1{
+        margin:15% 0;
+        margin-top:18%;
+    }
+    .ring .span1{
+        border:3px solid #0ef;
+        border-radius:0%;
+        width:8.8%;
+        margin:-6px -6px;
+        position:absolute;
+        animation:animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    
+    @keyframes animate{
+        100%{
+            transform: scaleX(1);
+        }
+    }
+    .ring .span2{
+        border-left:6px solid #0ef;
+        height:16%;
+        border-radius:0%;
+        margin:-6px 120px;
+        position:absolute;
+        animation:animate 1s 1.5s cubic-bezier(1,0,0.5,1) forwards;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    
+    @keyframes animate{
+        100%{
+            transform: scaleY(1);
+        }
+    }
+    
+    .ring .span3{
+        border:3px solid #0ef;
+        border-radius:0%;
+        width:8.8%;
+        margin:120px -6px;
+        position:absolute;
+        animation:animate 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    @keyframes animate{
+        100%{
+            transform: scaleX(1);
+        }
+    }
+    .ring .span4{
+        border-left:6px solid #0ef;
+        border-radius:0%;
+        margin:54px -6px;
+        position:absolute;
+        animation:animate 1s 2.5s cubic-bezier(1,0,0.5,1) forwards;
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+    .ring.Communication .span4{
+        height:9%;
+    }
+    .ring.Problem-Solving .span4{
+        height:11%;
+        margin:38px -6px;
+    }
+    .ring.AI-Tools .span4{
+        height:8%;
+        margin:62px -6px;
+    }
+    .ring.Team-Work .span4{
+        height:13%;
+        margin:23px -6px;
+    }
+    
+    @keyframes animate{
+        100%{
+            transform: scaleY(1);
+        }
+    } 
+    .ring .text{
+        font-size:2rem;
+        margin:25px;
+        position:absolute;
+        padding-top:10px;
+    }
+    .icons{
+        margin-top:10%;
+        margin-left:20%;
+    }
+    .myskills-heading .bar{
+        border:3px solid white;
+        border-radius:10px;
+        margin-top:-13px;
+        width:37%;
+    }
+    .right-part .bar{
+        width:44%;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   .left-part .myskills-heading{
+        margin-left:3%;
+   }
+   .left-part .bar{
+    width:46%;
+    border:6px solid white;
+   }
+   .icons{
+    font-size:1.5rem;
+   }
+   .icons .bars{
+    border:6px solid white;
+   }
+   .icons .bars span{
+    border:6px solid #0ef;
+    margin:-5px -5px;
+   }
+   .bars span::after{
+    position:absolute;
+    padding:1px 8px;
+    background-color: white;
+    color:black;
+    font-size:25px;
+    border-radius: 3px;
+    top:-48px;
+    right:-20px;
+    animation : showText .5s 1.5s linear forwards;
+    opacity:0;
+}
+.bars span::before{
+    content:" ";
+    position: absolute;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-top-color:white;
+    border-bottom-width:0;
+    border-right-width:0;
+    top:-20px;
+    right:-3px;
+    animation : showText .5s 1.5s linear forwards;
+    opacity:0;
+}
+.right-part .bar{
+    width:56%;
+    border:6px solid white;
+}
+.right-part .myskills-heading{
+    margin-left:5%;
+    margin-top:10%;
+}
+.div1,.div2{
+    display:flex;
+}
+.div1{
+    margin-left:70px;
+}
+.div2{
+    margin-left:66px;
+    margin-bottom:15%;
+}
+.ring {
+    width: 200px;
+    height: 200px;
+    border-radius:0%;
+    border: 8px solid #ccc;
+    margin:10% auto;
+}
+.ring .span1{
+    border:4px solid #0ef;
+    border-radius:0%;
+    width:200px;
+    margin:-8px -8px;
+    position:absolute;
+    animation:animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+@keyframes animate{
+    100%{
+        transform:scaleX(1);
+    }
+}
+.ring .span2{
+    border-left:8px solid #0ef;
+    height:12%;
+    border-radius:0%;
+    margin:-8px 200px;
+    position:absolute;
+    animation:animate 1s 1.5s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleY(1);
+    }
+}
+.ring .span3{
+    border:4px solid #0ef;
+    border-radius:0%;
+    width:200px;
+    margin:200px -8px;
+    position:absolute;
+    animation:animate 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.ring .span4{
+    border-left:8px solid #0ef;
+    border-radius:0%;
+    margin:74px -8px;
+    position:absolute;
+    animation:animate 1s 2.5s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+.ring.Communication .span4{
+    height:7%;
+}
+.ring.Problem-Solving .span4{
+    height:8%;
+    margin:56px -8px;
+}
+.ring.AI-Tools .span4{
+    height:5%;
+    margin:110px -8px;
+}
+.ring.Team-Work .span4{
+    height:10%;
+    margin:23px -8px;
+}
+.ring.Time-Managment .span4{
+    height:5%;
+    margin:110px -8px;
+}
+.ring.Teaching-Skills .span4{
+    height:5%;
+    margin:110px -8px;
+}
+@keyframes animate{
+    100%{
+        transform: scaleY(1);
+    }
+} 
+.loading-text{
+    font-size:2rem;
+}
+.ring .text{
+    font-size:3rem;
+    margin:30px;
+    margin-left:45px;
+    position:absolute;
+    padding-top:40px;
+}
+.loading-text{
+    font-size:1.6rem;
+}
+.main-heading .heading-span:hover{
+    box-shadow: 0 0 50px #0ef;
+}
+.container{
+    margin-top:20%;
+}
+
+}

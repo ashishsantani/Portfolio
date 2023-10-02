@@ -1,0 +1,77 @@
+.pricing{
+    margin-bottom:50px;
+    width:94%;
+    padding:1rem 1rem;
+    background-color: black;
+ } 
+ 
+ .card-container{
+    margin-left:105px; 
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    padding-left:15px;
+ }
+  
+ .card{
+    border: 1px solid white;
+    padding:1rem;
+    text-align: center;
+ }
+ .card:hover{
+   background-color: #141414;
+}
+.card h3{
+   color:white;
+   font-size:1.4rem;
+   padding:1rem;
+}
+.card p{
+   padding:10px 0;
+}
+.bar{
+   border: 1px solid white;
+   width:10%;
+   margin:1.5rem auto;
+   display:block;
+
+}
+.btn2{
+   display : block;
+   width:70%;
+   margin:2rem auto;
+}
+.heading{
+   font-size:4rem;
+   font-weight: 600;
+   margin:0;
+}
+ 
+ @media screen and (max-width:1440px){
+   .card-container{
+      margin-left:73px;
+      font-size:1.2rem
+   }
+   .card{
+      margin-right:35px;
+   }
+ }
+ @media screen and (max-width:1080px){
+   .card-container{
+       max-width: 100%;
+       margin:auto;
+       margin-top:30px;
+       grid-template-columns:1fr
+    }
+    .card{
+      margin-bottom:20px;
+      margin-right:8px;
+    }
+    .btn2{
+      font-size:2rem;
+    }
+    .pricing{
+      width:94%;
+     }
+}
+

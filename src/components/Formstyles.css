@@ -1,0 +1,29 @@
+label{
+    color:white;
+    margin-bottom:.5rem;
+    font-size:1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:4rem 1rem;
+    margin:auto;
+    max-width:600px;
+}
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size:1.2rem;
+    background-color:rgba(255,255,255,.1);
+    border-color:rgba(255,255,255,.1);
+    color:#f4f4f4;
+}
+.submit{
+    width:100%;
+    background: linear-gradient(orange,yellow);
+}
+@media screen and (max-width:1080px){
+    .submit{
+        font-size:1.5rem;
+    }
+}
