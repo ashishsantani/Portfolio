@@ -16,12 +16,10 @@ const Form = () => {
     if (name === " " || email === " " || subject === " " || message === " ") {
       alert("First fill the Details and then click submit button.");
     } else {
-      emailjs.sendForm('service_p90ehbo', 'template_bado2ae', ref.current, '_CfMagTUi0y4JLtcy')
+      emailjs.sendForm('service_0dkf8yr', 'template_bado2ae', ref.current, '_CfMagTUi0y4JLtcy')
         .then((result) => {
-          console.log(result.text);
           setSuccess(true);
         }, (error) => {
-          console.log(error.text);
           setSuccess(false);
         });
 

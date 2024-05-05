@@ -11,8 +11,8 @@ const Items = [
    button:"Contact Now"
  } ,
  {
-    id:3,
-    subscription:"Premiuim",
+    id:2,
+    subscription:"Premium",
     content:" ",
     pricing:"$70",
     days:"4 Days",

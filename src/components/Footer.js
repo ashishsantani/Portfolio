@@ -9,7 +9,7 @@ const Footer = () => {
              <div className="location">
                 <FaHome className="home-icon" size={20} style={{color:"white",marginRight:"2rem"}} />
                 <div>
-                  <p>A 204 Surya Flats</p>
+                  <p>Surat Gujarat</p>
                   <p>India</p>
                 </div>
              </div>

@@ -28,6 +28,7 @@ const createWorkCard = (workitem,ind) => {
           key={workitem.id}
           imgsrc={workitem.imgsrc}
           title={workitem.title}
+          icons={workitem.icons}
           content={workitem.content}
           viewbtn={workitem.viewbtn}
           sourcebtn={workitem.sourcebtn}

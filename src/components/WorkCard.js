@@ -11,6 +11,9 @@ const WorkCard = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.content}</p>
             </div> 
+            <div className='tec-icons' style={{marginTop:"-8px" , marginBottom:"24px" , marginLeft:"-12px",padding:"0"}}>
+                {props.icons}
+            </div>
             <div className="buttons1">
                   <Link to={props.viewbtn} className="button">View</Link>
                   <Link to={props.sourcebtn} className="button buttonRight">Source</Link>
