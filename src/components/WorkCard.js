@@ -8,15 +8,15 @@ const WorkCard = (props) => {
                 <img className="WorkImg" src={props.imgsrc} alt="workImg"/>
             </div>
             <div className="content">
-                <h2>{props.title}</h2>
-                <p>{props.content}</p>
+                <h2 className='work-heading'>{props.title}</h2>
+                <p className='work-paragraph'>{props.content}</p>
             </div> 
-            <div className='tec-icons' style={{marginTop:"-8px" , marginBottom:"24px" , marginLeft:"-12px",padding:"0"}}>
+            <div className='tec-icons'>
                 {props.icons}
             </div>
             <div className="buttons1">
                   <Link to={props.viewbtn} className="button">View</Link>
-                  <Link to={props.sourcebtn} className="button buttonRight">Source</Link>
+                  <Link to={props.sourcebtn} className="button">Source</Link>
             </div>           
         </div>
   )

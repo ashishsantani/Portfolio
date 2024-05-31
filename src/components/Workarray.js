@@ -15,12 +15,12 @@ const workitems = [
         imgsrc: img1,
         title: "My-Portfolio",
         icons: <>
-            <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoCss3 color="blue" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoJavascript color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiReact color="#61dafb" size={"30px"} style={{ margin: "0 8px" }} />
+            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
+            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}}/>
+            <BiLogoJavascript color="yellow" style={{paddingRight:"10px"}}/>
+            <SiReact color="#61dafb" style={{paddingRight:"10px"}}/>
         </>,
-        content: "As a passionate and dedicated MERN Stack Developer, I have crafted this website to showcase my expertise in building dynamic and interactive web applications. Here, you'll find a collection of my latest projects, each highlighting my skills",
+        content: "As a passionate and dedicated MERN Stack Developer, I have crafted this website to showcase my expertise in building dynamic and interactive web applications. Here, you'll find a collection of my latest projects, each highlighting my skills.",
         viewbtn: "https://ashportfolio.vercel.app/",
         sourcebtn: "https://github.com/ashishraja/Portfolio"
     },
@@ -29,10 +29,10 @@ const workitems = [
         imgsrc: img2,
         title: "MineDog-Clone",
         icons: <>
-            <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <FaBootstrap color="#6610f2" size={"30px"} style={{ margin: "0 8px" }} />
+            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}}/>
+            <FaBootstrap color="#6610f2" style={{paddingRight:"10px"}}/>
         </>,
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        content: "I developed a sleek and user-friendly MineDog website using HTML and Bootstrap. The site features a modern and responsive design, ensuring optimal performance, effortless navigation and accessibility across all devices.",
         viewbtn: "https://main--jovial-naiad-af5f8f.netlify.app/",
         sourcebtn: "https://github.com/ashishraja/MineDog",
         to: "games"
@@ -41,13 +41,13 @@ const workitems = [
         id: 3,
         imgsrc: img3,
         icons: <>
-            <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoCss3 color="blue" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoJavascript color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiReact color="#61dafb" size={"30px"} style={{ margin: "0 8px" }} />
+            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
+            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}} />
+            <BiLogoJavascript color="yellow" style={{paddingRight:"10px"}} />
+            <SiReact color="#61dafb" style={{paddingRight:"10px"}} />
         </>,
         title: "Client-Portfolio",
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        content: "I designed a stunning portfolio website for my client, leveraging the power of HTML, CSS, JavaScript, and React to create a captivating and interactive online presence. The site boasts a sleek, modern aesthetic with a focus on visual appeal and usability.",
         viewbtn: "https://parthiv.vercel.app/",
         sourcebtn: "https://github.com/ashishraja/ClientPortfolio"
     },
@@ -57,15 +57,15 @@ const workitems = [
         title: "CourseBundler-Clone",
         icons: <>
 
-            <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoCss3 color="blue" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoJavascript color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiMongodb color="green" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiExpress color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiReact color="#61dafb" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoNodejs color="green" size={"30px"} style={{ margin: "0 8px" }} />
+            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}}/>
+            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}}/>
+            <BiLogoJavascript color="yellow" style={{paddingRight:"10px"}}/>
+            <SiMongodb color="green" style={{paddingRight:"10px"}} />
+            <SiExpress color="yellow" style={{paddingRight:"10px"}} />
+            <SiReact color="#61dafb" style={{paddingRight:"10px"}} />
+            <BiLogoNodejs color="green" style={{paddingRight:"10px"}}/>
         </>,
-        content: " Created a full-stack MERN (MongoDB, Express.js, React.js, Node.js) coursebundler website aimed at offering a diverse range of courses for student enrollment. Designed and implemented an admin dashboard enabling CRUD (Create, Read, Update, Delete) operations.",
+        content: "Created a full-stack MERN (MongoDB, Express.js, React.js, Node.js) comprehensive ecommerce website aimed at delivering a seamless shopping experience to users. Designed and implemented an admin dashboard enabling CRUD (Create, Read, Update, Delete) operations. Integrated secure payment gateways to ensure safe and reliable transactions for all users.",
         viewbtn: "https://ashcoursebundler.vercel.app",
         sourcebtn: "https://github.com/ashishraja/CourseBundler-Frontend"
     },
@@ -73,16 +73,16 @@ const workitems = [
         id: 5,
         imgsrc: img5,
         icons: <>
-           <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoCss3 color="blue" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoJavascript color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiMongodb color="green" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiExpress color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiReact color="#61dafb" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoNodejs color="green" size={"30px"} style={{ margin: "0 8px" }} />
+           <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
+            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}} />
+            <BiLogoJavascript color="yellow" style={{paddingRight:"10px"}} />
+            <SiMongodb color="green" style={{paddingRight:"10px"}} />
+            <SiExpress color="yellow" style={{paddingRight:"10px"}}/>
+            <SiReact color="#61dafb" style={{paddingRight:"10px"}} />
+            <BiLogoNodejs color="green" style={{paddingRight:"10px"}}/>
         </>,
         title: "Ecommerce-Clone",
-        content: "Created a full-stack MERN (MongoDB, Express.js, React.js, Node.js) comprehensive ecommerce website aimed at delivering a seamless shopping experience to users. Designed and implemented an admin dashboard enabling CRUD (Create, Read, Update, Delete) operations",
+        content: "Created a full-stack MERN (MongoDB, Express.js, React.js, Node.js) comprehensive ecommerce website aimed at delivering a seamless shopping experience to users. Designed and implemented an admin dashboard enabling CRUD (Create, Read, Update, Delete) operations, and integrated real-time inventory management for efficient stock control.",
         viewbtn: "https://ashecommerceclone.vercel.app",
         sourcebtn: "https://github.com/ashishraja/Ecommerce-clone-frontend"
     },
@@ -90,12 +90,12 @@ const workitems = [
         id: 6,
         imgsrc: img6,
         icons: <>
-            <BiLogoHtml5 color="red" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoCss3 color="blue" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiMongodb color="green" size={"30px"} style={{ margin: "0 8px" }} />
-            <SiExpress color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
-            <BiLogoNodejs color="green" size={"30px"} style={{ margin: "0 8px" }} />
-            <FaSquareJs color="yellow" size={"30px"} style={{ margin: "0 8px" }} />
+            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
+            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}} />
+            <SiMongodb color="green" style={{paddingRight:"10px"}} />
+            <SiExpress color="yellow" style={{paddingRight:"10px"}}/>
+            <BiLogoNodejs color="green" style={{paddingRight:"10px"}} />
+            <FaSquareJs color="yellow" style={{paddingRight:"10px"}} />
         </>,
         title: "Expense Tracker",
         content: "Developed an Expense Tracker Application using Node.js, Express, EJS, HTML, and CSS. The application provides a user-friendly interface for easy expense input and tracking, with real-time updates and total amount calculation. Key feature is intuitive and responsive UI design using HTML, CSS, and EJS templating engine for seamless user experience.",

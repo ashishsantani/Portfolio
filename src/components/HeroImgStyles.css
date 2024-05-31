@@ -36,6 +36,7 @@
 .big-heading .span1{
     font-size:3rem;
 }
+
 @media screen and (max-width:1080px){
     .big-heading .span1{
         font-size:5rem;
