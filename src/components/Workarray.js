@@ -99,7 +99,7 @@ const workitems = [
         </>,
         title: "Expense Tracker",
         content: "Developed an Expense Tracker Application using Node.js, Express, EJS, HTML, and CSS. The application provides a user-friendly interface for easy expense input and tracking, with real-time updates and total amount calculation. Key feature is intuitive and responsive UI design using HTML, CSS, and EJS templating engine for seamless user experience.",
-        viewbtn: "https://https://expense-tracker-umg4.onrender.com/",
+        viewbtn: "https://expense-tracker-umg4.onrender.com/",
         sourcebtn: "https://github.com/ashishraja/expense-tracker"
     },
 ];
