@@ -1,6 +1,5 @@
 import img1 from "./images/MyPortfolio.png"
 import img2 from "./images/MineDog.png"
-import img3 from "./images/parthivPortfolio.png"
 import img4 from "./images/ashCourseBundler.png"
 import img5 from "./images/ashEcommerce.png"
 import img6 from "./images/expense-tracker.png"
@@ -39,20 +38,6 @@ const workitems = [
     },
     {
         id: 3,
-        imgsrc: img3,
-        icons: <>
-            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
-            <BiLogoCss3 color="blue" style={{paddingRight:"10px"}} />
-            <BiLogoJavascript color="yellow" style={{paddingRight:"10px"}} />
-            <SiReact color="#61dafb" style={{paddingRight:"10px"}} />
-        </>,
-        title: "Client-Portfolio",
-        content: "I designed a stunning portfolio website for my client, leveraging the power of HTML, CSS, JavaScript, and React to create a captivating and interactive online presence. The site boasts a sleek, modern aesthetic with a focus on visual appeal and usability.",
-        viewbtn: "https://parthiv.vercel.app/",
-        sourcebtn: "https://github.com/ashishraja/ClientPortfolio"
-    },
-    {
-        id: 4,
         imgsrc: img4,
         title: "CourseBundler-Clone",
         icons: <>
@@ -70,7 +55,7 @@ const workitems = [
         sourcebtn: "https://github.com/ashishraja/CourseBundler-Frontend"
     },
     {
-        id: 5,
+        id: 4,
         imgsrc: img5,
         icons: <>
            <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
@@ -87,7 +72,7 @@ const workitems = [
         sourcebtn: "https://github.com/ashishraja/Ecommerce-clone-frontend"
     },
     {
-        id: 6,
+        id: 5,
         imgsrc: img6,
         icons: <>
             <BiLogoHtml5 color="red" style={{paddingRight:"10px"}} />
