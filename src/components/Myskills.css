@@ -250,31 +250,13 @@
     }
 
     .bars span::after {
-        position: absolute;
-        padding: 1px 8px;
-        background-color: white;
-        color: black;
         font-size: 25px;
-        border-radius: 3px;
         top: -48px;
-        right: -20px;
-        animation: showText .5s 1.5s linear forwards;
-        opacity: 0;
     }
 
     .bars span::before {
-        content: " ";
-        position: absolute;
-        width: 0;
-        height: 0;
         border: 15px solid transparent;
-        border-top-color: white;
-        border-bottom-width: 0;
-        border-right-width: 0;
         top: -20px;
-        right: -3px;
-        animation: showText .5s 1.5s linear forwards;
-        opacity: 0;
     }
 
     .right-part .bar {

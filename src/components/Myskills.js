@@ -6,7 +6,7 @@ import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs } from "react-i
 const Myskills = () => {
     return (
         <div className="main-container">
-            <h1 className="main-heading"><span class="heading-span">My <span> Skills </span></span></h1>
+            <h1 className="main-heading"><span className="heading-span">My <span> Skills </span></span></h1>
             <div className="container">
                 <div className="left-part">
                     <div className="myskills-heading">
@@ -120,7 +120,7 @@ const Myskills = () => {
                                 <span className="span4"></span>
                                 <span className="text">90%</span>
                             </div>
-                            <div class="loading-text">Team Work</div>
+                            <div className="loading-text">Team Work</div>
                         </div>
                         <div className="loader">
                             <div className="ring AI-Tools">

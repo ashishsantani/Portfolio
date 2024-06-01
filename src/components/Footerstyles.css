@@ -25,7 +25,12 @@
     position: relative;
     right:120px;
 }
-
+.right1 h4{
+        margin-bottom:10px;
+    }
+    .right1 p{
+        margin-top:8px;
+    }
 @media screen and (max-width:1440px){
     .left1{
         position:relative;
@@ -34,16 +39,35 @@
     }
     .home-icon{
         position:relative;
-        top:28px;
+        top:18px;
+    }
+    .phoneicon , .gmailicon{
+        margin:15px 0;
+    }
+    .left1 p{
+        margin:15px 0;
     }
 }
 @media screen and (max-width:1080px){
     .right1{
-        width:100%;
-        font-size:1.0rem;
+        width:90%;
+        font-size:.8rem;
     }
     .left1{
         width:100%;
-        font-size:1.5rem;
+        /* font-size:1.5rem; */
+    }
+    .home-icon{
+        position:relative;
+        top:18px;
+    }
+    .phoneicon , .gmailicon{
+        margin:15px 0;
+    }
+    .left1 p{
+        margin:15px 0;
+    }
+    .right1 h4{
+        margin-bottom:10px;
     }
 }

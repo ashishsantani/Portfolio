@@ -79,11 +79,33 @@ ul{
   align-items: center;
   font-size:3.5rem;
 }
+.home-featured-projects .headingDiv{
+  font-size:32px;
+  margin-top:80px;
+}
+.home-featured-div .work-container .work{
+  width:350px;
+}
+.home-featured-div .work-container{
+  margin-bottom: 50px;
+}
 
-@media (max-width : 1140px){
+@media (max-width : 1080px){
+  .home-featured-projects .headingDiv{
+    font-size:45px;
+    margin-top:80px;
+  }
   .navbar{
     width:100%;
   }
+  .home-featured-div{
+    margin-bottom: 80px;
+  }
+
+  .home-featured-div .work-container .work{
+    width:100%;
+  }
+
   .nav-menu{
       flex-direction:column;
       justify-content: center;

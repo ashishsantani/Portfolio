@@ -11,9 +11,9 @@ const HeroImg = () => {
         </div>
         <div className="content">
            <p className="small-heading">HI, I'M A FREELANCER.</p>
-           <h1 className="big-heading"><span class="span1">Full-Stack</span> <br></br> <span>Developer.</span></h1>
+           <h1 className="big-heading"><span className="span1">Full-Stack</span> <br></br> <span>Developer.</span></h1>
            <div className="buttons">
-             <Link to="/project" className="btn btn1"> projects </Link>
+             <Link to="/projects" className="btn btn1"> projects </Link>
              <Link to="/contact" className="btn btn-light btn-light1"> contact </Link>
            </div>
         </div>

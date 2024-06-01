@@ -4,7 +4,7 @@ import {Routes,Route} from "react-router-dom";
 import Home from "./routes/home";
 import About from "./routes/about";
 import Contact from "./routes/contact";
-import Project from "./routes/project";
+import Project from "./routes/projects";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   <ScrollToTop />
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/project" element={<Project />} />
+    <Route path="/projects" element={<Project />} />
     <Route path="/contact" element={<Contact />} />
     <Route path="/about" element={<About />} /> 
   </Routes>
