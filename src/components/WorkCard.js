@@ -15,8 +15,8 @@ const WorkCard = (props) => {
                 {props.icons}
             </div>
             <div className="buttons1">
-                  <Link to={props.viewbtn} className="button">View</Link>
-                  <Link to={props.sourcebtn} className="button">Source</Link>
+                  <Link to={props.viewbtn} className="button" target="_blank">View</Link>
+                  <Link to={props.sourcebtn} className="button" target="_blank">Source</Link>
             </div>           
         </div>
   )
