@@ -148,7 +148,7 @@ const ContactForm = () => {
 
 const ContactInfo = ({ icon: Icon, title, content, link }) => (
   <motion.div
-    className="flex items-start space-x-4 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+    className="flex items-start space-x-4 p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
     whileHover={{ y: -5, scale: 1.02 }}
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
