@@ -1,38 +1,29 @@
 import React from 'react';
-import Navbar from "../components/navbar";
-import Footer from "../components/Footer.js";
-import HeroImg from "../components/HeroImg";
-import featuredItems from '../components/FeaturedProjects';
-import WorkCard from '../components/WorkCard';
+import Navbar from "../components/layout/Navbar";
+import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
+import Skills from "../components/sections/Skills";
+import Projects from "../components/sections/Projects";
+import Footer from "../components/layout/Footer";
+import SEO from "../components/common/SEO";
 
-const createWorkCard = (workitem, ind) => {
+const Home = () => {
   return (
-    <WorkCard
-      key={workitem.id}
-      imgsrc={workitem.imgsrc}
-      title={workitem.title}
-      icons={workitem.icons}
-      content={workitem.content}
-      viewbtn={workitem.viewbtn}
-      sourcebtn={workitem.sourcebtn}
-    />
-  )
-}
-
-const home = () => {
-  return (
-    <div className='home-featured-projects'>
+    <>
+      <SEO 
+        title="Home"
+        description="Full-Stack Developer specializing in MERN stack development. Creating modern, responsive web applications with exceptional user experience."
+      />
       <Navbar />
-      <HeroImg />
-      <div className='home-featured-div'>
-        <h1 className="headingDiv"> Featured Projects </h1>
-        <div className="work-container">
-          {featuredItems.map(createWorkCard)}
-        </div>
-      </div>
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects limit={3} />
+      </main>
       <Footer />
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default home;
+export default Home;
