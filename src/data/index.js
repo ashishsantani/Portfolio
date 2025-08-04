@@ -78,10 +78,10 @@ export const aboutData = {
   },
   content: personalInfo.description,
   stats: [
-    { label: "Projects Completed", value: "15+" },
-    { label: "Years of Experience", value: "3+" },
-    { label: "Technologies Mastered", value: "20+" },
-    { label: "Happy Clients", value: "50+" }
+    { label: "Projects Completed", value: "10+" },
+    { label: "Years of Experience", value: "1+" },
+    { label: "Technologies Mastered", value: "5+" },
+    // { label: "Happy Clients", value: "50+" }
   ]
 };
 
