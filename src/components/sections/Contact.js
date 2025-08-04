@@ -5,6 +5,11 @@ import { contactInfo } from '../../data';
 import Button from '../common/Button';
 import toast from 'react-hot-toast';
 
+const API_CONFIG = {
+  BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001/api/contact',
+  TIMEOUT: 10000, 
+};
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -26,7 +31,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:5001/api/contact', {
+      const response = await fetch(API_CONFIG.BACKEND_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
