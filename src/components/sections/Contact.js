@@ -6,7 +6,7 @@ import Button from '../common/Button';
 import toast from 'react-hot-toast';
 
 const API_CONFIG = {
-  BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001/api/contact',
+  BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'http://localhost:5002',
   TIMEOUT: 10000, 
 };
 
