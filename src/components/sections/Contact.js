@@ -26,17 +26,28 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate form submission (replace with your actual form handling)
-      await new Promise(resolve => setTimeout(resolve, 1000));
-
-      toast.success('Message sent successfully! I\'ll get back to you soon.', {
-        icon: '🎉',
-        duration: 4000,
+      const response = await fetch('http://localhost:5001/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
 
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        toast.success(data.message, {
+          icon: '🎉',
+          duration: 4000,
+        });
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        throw new Error(data.error || 'Failed to send message');
+      }
     } catch (error) {
-      toast.error('Failed to send message. Please try again.', {
+      console.error('Error sending message:', error);
+      toast.error(error.message || 'Failed to send message. Please try again.', {
         icon: '❌',
         duration: 4000,
       });
