@@ -149,6 +149,10 @@ const validateContactData = (req, res, next) => {
   next();
 };
 
+app.get('/contact', (req, res) => {
+  res.send('Hello World');
+});
+
 // Contact endpoint with CORS and rate limit
 app.post('/api/contact', cors(corsOptions), limiter, validateContactData, async (req, res) => {
   try {
