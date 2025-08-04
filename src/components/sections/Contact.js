@@ -31,7 +31,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(API_CONFIG.BACKEND_URL, {
+      const response = await fetch(`${API_CONFIG.BACKEND_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
