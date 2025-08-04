@@ -14,10 +14,10 @@ app.use(express.json());
 
 // CORS options
 const corsOptions = {
-  origin: 'https://ashishsantani08.vercel.app',
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type'],
-  credentials: false,
+  origin: [process.env.FRONTEND_URL , 'http://localhost:3000'],
+  // methods: ['GET', 'POST', 'OPTIONS'],
+  // allowedHeaders: ['Content-Type'],
+  credentials: true,
 };
 
 // Rate limiting - limit to 5 requests per 15 minutes per IP
