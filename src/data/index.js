@@ -58,12 +58,12 @@ export const personalInfo = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/ashishraja",
+      url: "https://github.com/ashishsantani",
       icon: BiLogoGithub,
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/ashish-santani-148b98237",
+      url: "https://linkedin.com/in/ashishsantani",
       icon: BiLogoLinkedin,
     }
   ]
@@ -294,7 +294,7 @@ export const projects = [
       { name: "React", icon: SiReact, color: "#61dafb" }
     ],
     liveUrl: "https://ashportfolio.vercel.app/",
-    githubUrl: "https://github.com/ashishraja/Portfolio",
+    githubUrl: "https://github.com/ashishsantani/Portfolio",
     category: "Web Application",
     featured: true,
     status: "completed"
@@ -309,7 +309,7 @@ export const projects = [
       { name: "Bootstrap", icon: FaBootstrap, color: "#6610f2" }
     ],
     liveUrl: "https://main--jovial-naiad-af5f8f.netlify.app/",
-    githubUrl: "https://github.com/ashishraja/MineDog",
+    githubUrl: "https://github.com/ashishsantani/MineDog",
     category: "Static Website",
     featured: false,
     status: "completed"
@@ -329,7 +329,7 @@ export const projects = [
       { name: "Node.js", icon: BiLogoNodejs, color: "#339933" }
     ],
     liveUrl: "https://ashcoursebundler.vercel.app",
-    githubUrl: "https://github.com/ashishraja/CourseBundler-Frontend",
+    githubUrl: "https://github.com/ashishsantani/CourseBundler-Frontend",
     category: "E-commerce",
     featured: true,
     status: "completed"
@@ -349,7 +349,7 @@ export const projects = [
       { name: "Node.js", icon: BiLogoNodejs, color: "#339933" }
     ],
     liveUrl: "https://ashecommerceclone.vercel.app",
-    githubUrl: "https://github.com/ashishraja/Ecommerce-clone-frontend",
+    githubUrl: "https://github.com/ashishsantani/Ecommerce-clone-frontend",
     category: "E-commerce",
     featured: true,
     status: "completed"
@@ -368,7 +368,7 @@ export const projects = [
       { name: "JavaScript", icon: FaSquareJs, color: "#f7df1e" }
     ],
     liveUrl: "https://expense-tracker-umg4.onrender.com/",
-    githubUrl: "https://github.com/ashishraja/expense-tracker",
+    githubUrl: "https://github.com/ashishsantani/expense-tracker",
     category: "Web Application",
     featured: false,
     status: "completed"
@@ -385,7 +385,7 @@ export const projects = [
       { name: "Tailwind CSS", icon: BiLogoTailwindCss, color: "#06b6d4" }
     ],
     liveUrl: "https://ashcurrencyconverter.vercel.app/",
-    githubUrl: "https://github.com/ashishraja/CurrencyConverter",
+    githubUrl: "https://github.com/ashishsantani/CurrencyConverter",
     category: "Web Application",
     featured: false,
     status: "completed"
