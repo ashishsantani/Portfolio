@@ -46,10 +46,7 @@ export const personalInfo = {
   title: "Full-Stack Developer",
   subtitle: "MERN Stack Developer",
   tagline: "HI, I'M Ashish Santani",
-  description: `I'm a Full-Stack MERN Developer. I create responsive and secured websites for my clients. 
-  I'm a versatile and skilled professional who is proficient in both front-end and back-end web development. 
-  Also I'm capable of handling all aspects of web application development, from designing the user interface 
-  and user experience to managing server-side logic and databases.`,
+  description: `Full-Stack Developer with 1+ year of experience in building production systems for e-commerce platforms generating ₹175Cr+ in annual sales. Specialized in Next.js, React, and Strapi CMS — with hands-on experience in AWS infrastructure, GA4/GTM analytics engineering, and Shopify app development. I am passionate about AI agents and am currently pursuing the Gemini Enterprise Agents development course to deepen my expertise in this field.`,
   location: "Surat, Gujarat",
   email: "ashishasprofessional@gmail.com",
   phone: "+91 9408284318",
@@ -179,24 +176,43 @@ export const experienceData = [
   {
     id: 1,
     title: "Full-Stack Developer",
-    company: "devxcommerce",
-    period: "August 2024 – Present",
+    company: "devxlabs.ai",
+    period: "May 2025 – Present",
     type: "Full-time",
     location: "Remote",
     achievements: [
-      "Developed and architected scalable full-stack web applications for diverse e-commerce, entertainment, and consumer goods clients, utilizing Next.js, React, Node.js, and Strapi CMS.",
-      "Engineered robust solutions and integrations, including real-time POS system synchronization and optimized data migration scripts, reducing transfer time by 75%.",
-      "Leveraged AWS services (Lambda, API Gateway, DynamoDB) to architect cloud-based solutions, notably implementing an AWS-based rating system with Infrastructure as Code (Terraform).",
-      "Actively improved code quality by refactoring legacy codebases, enhancing readability by 50%, and consistently resolving critical bugs across the full stack to ensure application stability.",
-      "Translated complex Figma designs into pixel-perfect, mobile-first responsive UI components, ensuring seamless user experiences.",
-      "Collaborated effectively with cross-functional teams, including QA, to ensure high-quality technical design, solution development, and issue resolution."
+      "Leading the frontend powering ₹175Cr+ in commerce: Own the frontend end-to-end — architecture, performance, CMS integration, and analytics — for an e-commerce platform serving 500K+ customers and ₹175Cr+ in sales.",
+      "Diagnosed and resolved a critical GA4 data corruption issue where 'source' — a reserved GA4 keyword — was being overwritten by custom event parameters, silently distorting UTM attribution and conversion data; reduced event error rate by 90%. Rebuilt the complete checkout funnel tracking (address, pincode, payment, drop-off) via GTM, restoring accurate attribution across all acquisition channels.",
+      "Proactively audited AWS infrastructure, identified idle EC2 instances and redundant CodePipeline services burning client budget — directly reducing cloud spend by 15–20%.",
+      "Independently root-caused a recurring third-party API failure that stalled the entire team across multiple attempts; authored a clear RCA and resolved the blocker, restoring project momentum.",
+      "Engineered a cart-aware upsell engine surfacing highest-savings recommendations at add-to-cart, driving measurable revenue lift tracked via GA4 event funnels.",
+      "Architected a serverless blog feedback pipeline on AWS — real-time rating capture and display — fully provisioned via Terraform.",
+      "Refactored a cluttered legacy Cart and Checkout codebase end-to-end, reducing code complexity by 50% and delivering a seamless purchase experience across multiple campaign pages.",
+      "Independently built and launched a production Shopify App from scratch — zero prior experience — navigating the App Store review process and coordinating internal and client teams through go-live.",
+      "Improved website performance by 40–50% through custom viewport-aware lazy loading hooks for video-heavy sections, directly boosting Core Web Vitals scores."
     ],
-    technologies: ["Next.js", "React", "Node.js", "Strapi CMS", "AWS", "Terraform", "DynamoDB", "Figma"],
+    technologies: ["Next.js", "React", "TypeScript", "Strapi CMS", "Google Analytics 4", "Google Tag Manager", "AWS", "Lambda", "DynamoDB", "Terraform", "Remix", "Shopify Polaris", "Node.js"],
     icon: Server,
     current: true
   },
   {
     id: 2,
+    title: "Internship",
+    company: "devxlabs.ai",
+    period: "Aug 2024 – Jun 2025",
+    type: "Internship",
+    location: "Remote",
+    achievements: [
+      "Delivered user-centric features by translating Figma designs into pixel-perfect, mobile-first UI components, prioritizing accessibility and seamless user experiences.",
+      "Applied clean coding principles and full-stack debugging to refactor legacy codebases, improving readability by 50% and ensuring application stability.",
+      "Built reusable Shopify→Strapi and Strapi→Strapi migration scripts adopted team-wide, cutting data transfer time by 75% and eliminating manual effort across projects."
+    ],
+    technologies: ["Node.js", "Strapi", "Shopify GraphQL API", "JavaScript", "Figma"],
+    icon: Code,
+    current: false
+  },
+  {
+    id: 3,
     title: "Freelance Shopify Developer",
     company: "B2B E-Commerce",
     period: "Mar 2024 – Jul 2024",
